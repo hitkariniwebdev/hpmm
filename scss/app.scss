@@ -38,3 +38,19 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+.top-bar.name {
+	margin-left: 20px !important;
+	box-sizing: border-box;
+}
+#brand {
+	display: block;
+	background: url('../img/hitlogo.jpg') center no-repeat;
+	height: 80px;
+	width: 80px;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+#main-content {
+	margin-top: 10px;
+}
