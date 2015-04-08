@@ -118,6 +118,7 @@ $oil         : #333333;
 $jet         : #222222;
 $black       : #000000;
 $ivy		 : #3090C7; 
+$bella		 : #517D99;
 
 // We use these as default colors throughout
 $primary-color: #008CBA;
@@ -892,88 +893,88 @@ $button-sml: rem-calc(14);
 // 19. Orbit
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// $include-html-orbit-classes: $include-html-classes;
+ $include-html-orbit-classes: $include-html-classes;
 
 // We use these to control the caption styles
-// $orbit-container-bg: none;
-// $orbit-caption-bg: rgba(51,51,51, 0.8);
-// $orbit-caption-font-color: $white;
-// $orbit-caption-font-size: rem-calc(14);
-// $orbit-caption-position: "bottom"; // Supported values: "bottom", "under"
-// $orbit-caption-padding: rem-calc(10 14);
-// $orbit-caption-height: auto;
+ $orbit-container-bg: $vapor;
+ $orbit-caption-bg: rgba(51,51,51, 0.8);
+ $orbit-caption-font-color: $bella;
+ $orbit-caption-font-size: rem-calc(14);
+ $orbit-caption-position: "under"; // Supported values: "bottom", "under"
+ $orbit-caption-padding: rem-calc(10 14);
+ $orbit-caption-height: auto;
 
 // We use these to control the left/right nav styles
-// $orbit-nav-bg: transparent;
-// $orbit-nav-bg-hover: rgba(0,0,0,0.3);
-// $orbit-nav-arrow-color: $white;
-// $orbit-nav-arrow-color-hover: $white;
+ $orbit-nav-bg: transparent;
+ $orbit-nav-bg-hover: rgba(0,0,0,0.3);
+ $orbit-nav-arrow-color: $bella;
+ $orbit-nav-arrow-color-hover: $white;
 
 // We use these to control the timer styles
-// $orbit-timer-bg: rgba(255,255,255,0.3);
-// $orbit-timer-show-progress-bar: true;
+ $orbit-timer-bg: rgba(255,255,255,0.3);
+ $orbit-timer-show-progress-bar: true;
 
 // We use these to control the bullet nav styles
-// $orbit-bullet-nav-color: $iron;
-// $orbit-bullet-nav-color-active: $aluminum;
-// $orbit-bullet-radius: rem-calc(9);
+ $orbit-bullet-nav-color: $iron;
+ $orbit-bullet-nav-color-active: $aluminum;
+ $orbit-bullet-radius: rem-calc(9);
 
 // We use these to controls the style of slide numbers
-// $orbit-slide-number-bg: rgba(0,0,0,0);
-// $orbit-slide-number-font-color: $white;
-// $orbit-slide-number-padding: rem-calc(5);
+ $orbit-slide-number-bg: rgba(0,0,0,0);
+ $orbit-slide-number-font-color: $white;
+ $orbit-slide-number-padding: rem-calc(5);
 
 // Graceful Loading Wrapper and preloader
-// $wrapper-class: "slideshow-wrapper";
-// $preloader-class: "preloader";
+ $wrapper-class: "slideshow-wrapper";
+ $preloader-class: "preloader";
 
 // Hide controls on small
-// $orbit-nav-hide-for-small: true;
-// $orbit-bullet-hide-for-small: true;
-// $orbit-timer-hide-for-small: true; 
+ $orbit-nav-hide-for-small: true;
+ $orbit-bullet-hide-for-small: true;
+ $orbit-timer-hide-for-small: true; 
 
 // 20. Pagination
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// $include-pagination-classes: $include-html-classes;
+ $include-pagination-classes: $include-html-classes;
 
 // We use these to control the pagination container
-// $pagination-height: rem-calc(24);
-// $pagination-margin: rem-calc(-5);
+ $pagination-height: rem-calc(24);
+ $pagination-margin: rem-calc(-5);
 
 // We use these to set the list-item properties
-// $pagination-li-float: $default-float;
-// $pagination-li-height: rem-calc(24);
-// $pagination-li-font-color: $jet;
-// $pagination-li-font-size: rem-calc(14);
-// $pagination-li-margin: rem-calc(5);
+ $pagination-li-float: $default-float;
+ $pagination-li-height: rem-calc(24);
+ $pagination-li-font-color: $jet;
+ $pagination-li-font-size: rem-calc(14);
+ $pagination-li-margin: rem-calc(5);
 
 // We use these for the pagination anchor links
-// $pagination-link-pad: rem-calc(1 10 1);
-// $pagination-link-font-color: $aluminum;
-// $pagination-link-active-bg: scale-color($white, $lightness: -10%);
+ $pagination-link-pad: rem-calc(1 10 1);
+ $pagination-link-font-color: $aluminum;
+ $pagination-link-active-bg: scale-color($white, $lightness: -10%);
 
 // We use these for disabled anchor links
-// $pagination-link-unavailable-cursor: default;
-// $pagination-link-unavailable-font-color: $aluminum;
-// $pagination-link-unavailable-bg-active: transparent;
+ $pagination-link-unavailable-cursor: default;
+ $pagination-link-unavailable-font-color: $aluminum;
+ $pagination-link-unavailable-bg-active: transparent;
 
 // We use these for currently selected anchor links
-// $pagination-link-current-background: $primary-color;
-// $pagination-link-current-font-color: $white;
-// $pagination-link-current-font-weight: $font-weight-bold;
-// $pagination-link-current-cursor: default;
-// $pagination-link-current-active-bg: $primary-color;
+ $pagination-link-current-background: $primary-color;
+ $pagination-link-current-font-color: $white;
+ $pagination-link-current-font-weight: $font-weight-bold;
+ $pagination-link-current-cursor: default;
+ $pagination-link-current-active-bg: $primary-color;
 
 // 21. Panels
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// $include-html-panel-classes: $include-html-classes;
+ $include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
-// $panel-bg: scale-color($white, $lightness: -5%);
-// $panel-border-style: solid;
-// $panel-border-size: 1px;
+ $panel-bg: scale-color($white, $lightness: -5%);
+ $panel-border-style: solid;
+ $panel-border-size: 1px;
 
 // We use this % to control how much we darken things on hover
 // $panel-function-factor: -11%;
@@ -1421,8 +1422,8 @@ $include-html-top-bar-classes: $include-html-classes;
  $topbar-dropdown-bg: $ivy;
  $topbar-dropdown-link-color: $white;
  $topbar-dropdown-link-color-hover: $topbar-link-color-hover;
- $topbar-dropdown-link-bg: $oil;
- $topbar-dropdown-link-bg-hover: $oil;
+ $topbar-dropdown-link-bg: $ivy;
+ $topbar-dropdown-link-bg-hover: $white;
  $topbar-dropdown-link-weight: $font-weight-normal;
  $topbar-dropdown-toggle-size: 5px;
  $topbar-dropdown-toggle-color: $white;
@@ -1432,7 +1433,7 @@ $include-html-top-bar-classes: $include-html-classes;
  $topbar-dropdown-label-text-transform: uppercase;
  $topbar-dropdown-label-font-weight: $font-weight-bold;
  $topbar-dropdown-label-font-size: rem-calc(10);
- $topbar-dropdown-label-bg: $oil;
+ $topbar-dropdown-label-bg: $ivy;
 
 // Top menu icon styles
  $topbar-menu-link-transform: uppercase;
@@ -1445,7 +1446,7 @@ $include-html-top-bar-classes: $include-html-classes;
  $topbar-menu-icon-position: $opposite-direction; // Change to $default-float for a left menu icon
 
 // Transitions and breakpoint styles
- $topbar-transition-speed: 300ms;
+ $topbar-transition-speed: 500ms;
 // Using rem-calc for the below breakpoint causes issues with top bar
  $topbar-breakpoint: #{lower-bound($medium-range)}; // Change to 9999px for always mobile layout
  $topbar-media-query: $medium-up;

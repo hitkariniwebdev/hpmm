@@ -38,19 +38,26 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
-.top-bar.name {
-	margin-left: 20px !important;
-	box-sizing: border-box;
-}
 #brand {
-	display: block;
-	background: url('../img/hitlogo.jpg') center no-repeat;
-	height: 80px;
-	width: 80px;
+	display: inline-block;
+	background: url('../img/hitlogo.png') center no-repeat;
+	height: 70px;
+	width: 550px;
 	text-decoration: none;
 	box-sizing: border-box;
 }
 
-#main-content {
-	margin-top: 10px;
+.drafts {
+	padding-top: 20px;
+	background: $bella;
+}
+
+.para {
+	color: $ivy;
+}
+
+#banner {
+	height: 200px;
+	padding-top: 5px;
+	background-color: $vapor;
 }
